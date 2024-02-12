@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 51
+names: ['American Robin', 'American Tree Sparrow', 'American_Crow', 'American_Goldfinch', 'American_Redstart', 'Baltimore_Oriole', 'Barn_Swallow', 'Bewick_Wren', 'Black Headed Grosbeak', 'Black-Capped Chickadee', 'Black_billed_Cuckoo', 'Blue-Grey Gnatcatcher', 'Blue_Jay', 'Bohemian_Waxwing', 'Brewer_Blackbird', 'Brown_Creeper', 'Brown_Thrasher', 'Cardinal', 'Carolina Chickadee', 'Carolina_Wren', 'Cedar_Waxwing', 'Chipmunk', 'Chipping_Sparrow', 'Common Grackle', 'Dark_eyed_Junco', 'Downy_Woodpecker', 'Eastern Phoebe', 'Eastern_Blue_Bird', 'Eastern_Towhee', 'European Starling', 'Evening_Grosbeak', 'Golden-Crowned Kinglet', 'Gray_Catbord', 'Gray_Crowned_Rosy_Finch', 'Great_Crested_Flycatcher', 'Hairy Woodpecker', 'Harris_Sparrow', 'Hermit Thrush', 'House Finch', 'House Sparrow', 'Mourning Dove', 'Northern Parula', 'Pine Siskin', 'Purple Martin', 'Red-Breasted Nuthatch', 'Ruby Crowned Kinglet', 'Solitary Vireo', 'Squirrel', 'Swainsans_Thrush', 'Tufted Titmouse', 'Wood Thrush']
+
+roboflow:
+  workspace: trainesb-msu-edu
+  project: ne-bird
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trainesb-msu-edu/ne-bird/dataset/7
